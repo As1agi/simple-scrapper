@@ -3,7 +3,7 @@ set -e
 
 BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-cd "$BASE_DIR/scrapper"
+cd "$BASE_DIR/scraper"
 go run .
 
 cd "$BASE_DIR/analysis_alert"
